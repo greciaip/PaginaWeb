@@ -1,20 +1,12 @@
- body 
-          {
+ body   {
+            font-family: lucida sans;
+        }
+        {
             background-color: black;
         }
         h2{
             color: orange;
         }
-        .parrafoAzul{
-            color: blue
+header {
+        color: black;
         }
-        #parrafoVerde {
-            color: rgb(0,300,50)
-        }
-    header {
-        color: white;
-    }
-article 
-{
-    color: white;
-}

@@ -1,0 +1,64 @@
+.bandera{
+    display: flex;
+    height: 400px;
+    width: 600px;
+    border: 2px solid;
+    background: blue;
+    font-size:16px;
+}
+.izquierda{
+    display: flex;
+    height: 100%; 
+    width: 60%;
+    flex-direction: column;
+    justify-content: space-between;    
+}
+.derecha{
+    display:flex;
+    height: 100%;
+    width:60%;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items: flex-end;
+}
+.blanco1{
+    display: flex;
+    height:42%;
+    width: 100%;
+    background: white;
+    justify-content: flex-end;
+}
+.blanco2{
+    display: flex;
+    width: 100%;
+    height: 42%;
+    background: white;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+.blanco{
+    display: flex;
+    height: 42%;
+    width: 80%;
+    background: white;
+}
+.rojo{
+    background: red;
+    height:90%;
+    width:90%;
+}
+.blanco1 .rojo {
+    width: 94%;
+}
+.blanco2 .rojo {
+    width: 94%;
+}
+.rojo2{
+    display:flex;
+    align-self: flex-end;
+}
+.derecha .blanco{
+   display: flex;
+    width:90%;
+}
